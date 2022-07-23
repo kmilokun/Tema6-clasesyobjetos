@@ -1,0 +1,24 @@
+class Alumno:
+    nombre = None
+    nota = None
+
+    def setNombre(self, nombre):
+        self.nombre = nombre
+
+    def setNota(self, nota):
+        self.nota = nota
+
+    def getNombre(self):
+        return self.nombre
+
+    def getNota(self):
+        return self.nota
+
+
+alumno = Alumno()
+
+alumno.setNombre('Pedro')
+alumno.setNota(10)
+
+print(alumno.getNombre())
+print(alumno.getNota())
