@@ -1,0 +1,19 @@
+
+class Vehiculo:
+    color = 'Gris'
+    ruedas = 4
+    puertas = 4
+
+
+class Coche(Vehiculo):
+    velocidad = 180
+    cilindrada = 2000
+
+
+coche = Coche
+
+print(coche.color)
+print(coche.ruedas)
+print(coche.puertas)
+print(coche.cilindrada)
+print(coche.velocidad)
