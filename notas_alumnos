@@ -26,5 +26,5 @@ print(alumno.getNota())
 if alumno.getNota() < 5:
     print('Desaprovado')
 else:
-    print('Aprovado')
+    print('Aprobado')
 
